@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPiLastic.Api", "EPiLastic.Api\EPiLastic.Api.csproj", "{05D76183-216A-4F4A-9EF2-00999A167B58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPiLastic.Api.Test", "EPiLastic.Api.Test\EPiLastic.Api.Test.csproj", "{AFF6B9EF-05C3-4E18-B122-F3BFEEB4603D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05D76183-216A-4F4A-9EF2-00999A167B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D76183-216A-4F4A-9EF2-00999A167B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D76183-216A-4F4A-9EF2-00999A167B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D76183-216A-4F4A-9EF2-00999A167B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFF6B9EF-05C3-4E18-B122-F3BFEEB4603D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFF6B9EF-05C3-4E18-B122-F3BFEEB4603D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFF6B9EF-05C3-4E18-B122-F3BFEEB4603D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFF6B9EF-05C3-4E18-B122-F3BFEEB4603D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
