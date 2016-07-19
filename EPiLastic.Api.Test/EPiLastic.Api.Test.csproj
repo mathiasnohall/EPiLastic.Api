@@ -50,16 +50,16 @@
       <HintPath>..\packages\Elasticsearch.Net.2.3.1\lib\net46\Elasticsearch.Net.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="EPiLastic, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiLastic.1.1.1\lib\net461\EPiLastic.dll</HintPath>
+    <Reference Include="EPiLastic, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiLastic.1.1.2\lib\net461\EPiLastic.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="EPiLastic.Indexing, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiLastic.1.1.1\lib\net461\EPiLastic.Indexing.dll</HintPath>
+    <Reference Include="EPiLastic.Indexing, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiLastic.1.1.2\lib\net461\EPiLastic.Indexing.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="EPiLastic.Querying, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiLastic.1.1.1\lib\net461\EPiLastic.Querying.dll</HintPath>
+    <Reference Include="EPiLastic.Querying, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiLastic.1.1.2\lib\net461\EPiLastic.Querying.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EPiServer, Version=9.6.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
@@ -198,6 +198,8 @@
   <ItemGroup>
     <Compile Include="For_Search\AutoComplete\when_GetSuggestions.cs" />
     <Compile Include="For_Search\AutoComplete\when_GetSuggestions_when_elastic_fails.cs" />
+    <Compile Include="For_Search\For_Types\when_GetTypes.cs" />
+    <Compile Include="For_Search\For_Types\when_GetTypes_when_elastic_fails.cs" />
     <Compile Include="For_Search\For_SubTypes\when_GetSubTypes.cs" />
     <Compile Include="For_Search\For_SubTypes\when_GetSubTypes_when_elastic_fails.cs" />
     <Compile Include="For_Search\Pages\when_GetPages.cs" />
